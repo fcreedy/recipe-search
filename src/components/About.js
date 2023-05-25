@@ -15,13 +15,13 @@ const About = () => {
                 <p className="my-2">With her background in working within cross-functional teams, building constructive relationships with subject-matter experts, and advocating for user-centred design, Fiona brings a unique combination of skills to instructional design and development. She has a proven track record of developing and producing content for a variety of digital channels, with a particular strength in translating complex information for non-specialist audiences.</p>
             </div>
 
-            <button type="button" onclick="document.location='https://fionacreedy.myportfolio.com/'" title="View Fiona's full portfolio" className="bg-apple-yellow text-sm text-center font-semibold rounded-md border-0 m-4 w-56 p-3 hover:drop-shadow-md cursor-pointer duration-500 block">
+            <a className="link-button bg-apple-yellow text-sm text-center font-semibold rounded-md border-0 m-4 w-56 p-3 hover:drop-shadow-md cursor-pointer duration-500 inline-block" href="https://fionacreedy.myportfolio.com/" title="View Fiona's full portfolio">
                 View Fiona&lsquo;s full portfolio
-            </button>
+            </a>
            
-            <button type="button" onclick="document.location='https://www.linkedin.com/in/fionacreedy/'" title="View Fiona's LinkedIn profile" className="bg-apple-yellow text-sm text-center font-semibold rounded-md border-0 m-4 w-56 p-3 hover:drop-shadow-md cursor-pointer duration-500 block">
+            <a className="link-button bg-apple-yellow text-sm text-center font-semibold rounded-md border-0 m-4 w-56 p-3 hover:drop-shadow-md cursor-pointer duration-500 inline-block" href="https://www.linkedin.com/in/fionacreedy/" title="View Fiona's LinkedIn profile">
                 View Fiona&lsquo;s LinkedIn profile
-            </button>
+            </a>
 
         </div>
     )

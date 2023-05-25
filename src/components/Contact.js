@@ -8,9 +8,9 @@ const Contact = () => {
                 <AnimatedLetters strArray={('Contact').split('')} customData='Contact' />
             </div>
 
-            <button type="button" onclick="document.location='https://fionacreedy.myportfolio.com/contact'" title="Contact Fiona" className="bg-apple-yellow text-sm text-center font-semibold rounded-md m-4 border-0 w-48 p-3 hover:drop-shadow-md cursor-pointer duration-500">
+            <a className="bg-apple-yellow inline-block text-sm text-center font-semibold rounded-md m-4 border-0 w-48 p-3 hover:drop-shadow-md cursor-pointer duration-500" href="https://fionacreedy.myportfolio.com/contact" title="Contact Fiona">
                 Contact Fiona
-            </button>
+            </a>
             
         </div>
     )
