@@ -1,23 +1,22 @@
+@import "animate.css";
 
-@import 'animate.css';
-
-@import  url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400&family=Source+Code+Pro&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300;400&family=Source+Code+Pro&display=swap");
 
 .active svg {
-  color: #EBE709 !important;
+  color: #ebe709 !important;
 }
 
 .homepage-title-1 {
-  font-family: 'Source Code Pro';
+  font-family: "Source Code Pro";
   color: dimgray;
 }
 
 .homepage-title-2 {
-  font-family: 'Kalam';
-  color: #67B715;
+  font-family: "Kalam";
+  color: #67b715;
 }
 
 .content-page-title {
-  font-family: 'Kalam';
-  color: #67B715;
+  font-family: "Kalam";
+  color: #67b715;
 }
