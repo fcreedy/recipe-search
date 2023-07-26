@@ -21,6 +21,7 @@ const Home = () => {
   const clearQueryData = () => {
     setQuery("");
     setRecipeData([]);
+    document.getElementById("query").focus({preventScroll:false}); 
   };
 
   const searchForRecipe = (event) => {
@@ -37,11 +38,6 @@ const Home = () => {
         setRecipeData(jsResult.hits);
       });
   };
-
-  document.getElementById("reset-button").addEventListener("click", () => {
-    document.getElementById("query").focus({preventScroll:false}); 
-    }
-  );
 
   const renderResults = (recipeData) => {
     return (
@@ -142,7 +138,6 @@ const Home = () => {
 
         <button
           type="reset"
-          id="reset-button"
           className="block w-full rounded-md py-1.5 px-1.5 ring-1 ring-gray-400 bg-gray-200 hover:ring-2 hover:ring-inset hover:ring-gray-800 hover:bg-apple-yellow cursor-pointer duration-300 sm:text-sm sm:leading-6"
         >
           <FontAwesomeIcon icon={faArrowRotateLeft} />
